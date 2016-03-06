@@ -163,7 +163,7 @@ public final class Logger {
 
     // MARK: Intial Info
     
-    private var hasLoggedInitialInfo: Bool = false
+    public var hasLoggedInitialInfo: Bool = false
     /// Logs appropriate information about the logging setup automatically when the first logging call occurs.
     private func logInitialInfo() {
         if !hasLoggedInitialInfo {
